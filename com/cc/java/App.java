@@ -15,8 +15,8 @@ public class App {
        */
 
         Cat cat = new Cat();  // default - Konstruktor
-        System.out.println(cat);
-        cat.meow();
+        System.out.println(cat);  // Ausgabe der Referenzadresse im Speicher
+        cat.meow(); // Aufruf der meow-Methode  
 
     }
 
