@@ -27,7 +27,9 @@ public class App {
         output("-----------------------");
    
     }
+
         public static void output(String outputString) {
         System.out.println(outputString);   
     }   
+    
 }
