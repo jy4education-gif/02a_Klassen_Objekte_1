@@ -6,8 +6,12 @@ public class Cat {
         // System.out.println("Meow!!!");
         // Instanzvariable this referenziert das aktuelle Objekt
         //System.out.println("Blick von innen auf cat: " + this); // Ausgabe der Referenzadresse im Speicher
-
-        App.output("Test_02");
-        
+        App.output("Blick von innen auf cat: " + this);
     }
+
+    public Cat getInstanceVariable(){
+        return this;
+    }
+
+
 }
