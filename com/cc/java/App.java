@@ -15,14 +15,14 @@ public class App {
        */
 
         Cat cat = new Cat();  // default - Konstruktor
-        System.out.println("Blick von aussen auf cat: " + cat);  // Ausgabe der Referenzadresse im Speicher
+        output("Blick von aussen auf cat: " + cat);  // Ausgabe der Referenzadresse im Speicher
         cat.meow(); // Aufruf der meow-Methode
-        System.out.println("-----------------------");
+        output("-----------------------");
        
         Cat cat2 = new Cat();  // default - Konstruktor
-        System.out.println("Blick von aussen auf cat2: " + cat2);  // Ausgabe der Referenzadresse im Speicher
+        output("Blick von aussen auf cat2: " + cat2);  // Ausgabe der Referenzadresse im Speicher
         cat2.meow(); // Aufruf der meow-Methode
-        System.out.println("-----------------------");
+        output("-----------------------");
 
         output("Test_01");
 
