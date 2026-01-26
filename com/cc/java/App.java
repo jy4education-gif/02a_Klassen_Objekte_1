@@ -15,9 +15,18 @@ public class App {
        */
 
         Cat cat = new Cat();  // default - Konstruktor
-        System.out.println(cat);  // Ausgabe der Referenzadresse im Speicher
+        System.out.println("Blick von aussen auf cat: " + cat);  // Ausgabe der Referenzadresse im Speicher
         cat.meow(); // Aufruf der meow-Methode
+        System.out.println("-----------------------");
+       
+        Cat cat2 = new Cat();  // default - Konstruktor
+        System.out.println("Blick von aussen auf cat2: " + cat2);  // Ausgabe der Referenzadresse im Speicher
+        cat2.meow(); // Aufruf der meow-Methode
+        System.out.println("-----------------------");
 
+        output();
     }
-
+        public static void output(){
+        System.out.println("Hello World!");
+    }   
 }

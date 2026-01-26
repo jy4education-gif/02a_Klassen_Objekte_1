@@ -4,6 +4,6 @@ public class Cat {
 
     public void meow() {
         // System.out.println("Meow!!!");
-        System.out.println(this); // Ausgabe der Referenzadresse im Speicher
+        System.out.println("Blick von innen auf cat: " + this); // Ausgabe der Referenzadresse im Speicher
     }
 }
