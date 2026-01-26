@@ -24,9 +24,10 @@ public class App {
         cat2.meow(); // Aufruf der meow-Methode
         System.out.println("-----------------------");
 
-        output();
+        output("Test_01");
+
     }
-        public static void output(){
-        System.out.println("Hello World!");
+        public static void output(String outputString) {
+        System.out.println(outputString);   
     }   
 }
